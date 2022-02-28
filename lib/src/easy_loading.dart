@@ -81,6 +81,7 @@ enum EasyLoadingIndicatorType {
   fadingCube,
   pulse,
   cubeGrid,
+  circleGrid ,
   rotatingCircle,
   foldingCube,
   pumpingHeart,

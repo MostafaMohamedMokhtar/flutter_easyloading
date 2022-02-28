@@ -21,6 +21,7 @@
 // IN THE SOFTWARE.
 
 import 'package:flutter/material.dart';
+import '../circle_grid.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 import '../easy_loading.dart';
@@ -133,6 +134,12 @@ class _LoadingIndicatorState extends State<LoadingIndicator> {
         break;
       case EasyLoadingIndicatorType.cubeGrid:
         _indicator = SpinKitCubeGrid(
+          color: _indicatorColor,
+          size: _size,
+        );
+        break;
+      case EasyLoadingIndicatorType.circleGrid:
+        _indicator = SpinKitCircleGrid(
           color: _indicatorColor,
           size: _size,
         );
