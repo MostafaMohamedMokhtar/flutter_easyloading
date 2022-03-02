@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:example/custom_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_loadingindicator/flutter_loadingindicator.dart';
 
-import './custom_animation.dart';
 
 import './test.dart';
 
@@ -17,6 +17,7 @@ void configLoading() {
   EasyLoading.instance
     ..displayDuration = const Duration(milliseconds: 2000)
     ..indicatorType = EasyLoadingIndicatorType.fadingCircle
+
     ..loadingStyle = EasyLoadingStyle.dark
     ..indicatorSize = 45.0
     ..radius = 10.0
@@ -338,6 +339,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           EasyLoadingIndicatorType.cubeGrid: Padding(
                             padding: EdgeInsets.all(5.0),
                             child: Text('cubeGrid'),
+                          ),
+                          EasyLoadingIndicatorType.circleGrid: Padding(
+                            padding: EdgeInsets.all(5.0),
+                            child: Text('circleGrid'),
                           ),
                           EasyLoadingIndicatorType.threeBounce: Padding(
                             padding: EdgeInsets.all(5.0),

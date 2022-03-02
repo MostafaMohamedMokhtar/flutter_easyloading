@@ -62,13 +62,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_easyloading:
+  flutter_loadingindicator:
     dependency: "direct main"
     description:
-      name: flutter_easyloading
+      name: flutter_loadingindicator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.3"
+    version: "1.0.0"
   flutter_spinkit:
     dependency: transitive
     description:
