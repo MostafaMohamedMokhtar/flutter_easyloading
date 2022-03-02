@@ -1,6 +1,6 @@
 name: flutter_loadingindicator
 description: show Loading cycle grid indicator and more others , Easy to use without context, Support iOS、Android and Web
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/MostafaMohamedMokhtar/flutter_easyloading
 
 environment:
